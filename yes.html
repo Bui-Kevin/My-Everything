@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sushi Daddy</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>$(document).ready(function () {
+      $('.container').mouseenter(function () {
+          $('.card').stop().animate({
+              top: '-90px'
+          }, 'slow');
+      }).mouseleave(function () {
+          $('.card').stop().animate({
+              top: 0
+          }, 'slow');
+      });
+  });
+  </script>
+  </head>
+  <body>
+    <div class="container">
+      <video
+        src="Video/Me Happy.mp4" width="320" height="240" autoplay muted loop>
+      </video>
+
+    </div>
+    <div class="container">  
+      <div class="valentines">
+        <div class="envelope"></div>
+        <div class="front"></div>
+        <div class="card">
+        <div class="text">You're my</br> everything,</br>Yadao</div>
+        <div class="heart"</div>
+        </div>
+        <div class="hearts">
+          <div class="one"></div>
+          <div class="two"></div>
+          <div class="three"></div>
+          <div class="four"></div>
+          <div class="five"></div>
+        </div>
+      </div>
+      </div>
+      <div class="shadow"></div>
+      </div>
+      <p style="font-family: 'Courier';font-size: 10px;">hover or click me ❤️</p>
+  </body>
+</html>
